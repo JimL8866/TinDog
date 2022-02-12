@@ -26,7 +26,7 @@ h2 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 20% 5%;
 
 }
 
@@ -60,10 +60,10 @@ padding-bottom: 4.5rem;
 
 /* Title image */
 .title-image {
-  width: 50%;
+  width: 10%;
   transform: rotate(25deg);
-  position: relative;
-  left:150px;
+  position: absolute;
+  right: 29%
 }
 
 h3 {
@@ -83,7 +83,10 @@ p {
 
 /* Features Section */
 #features {
-  padding:7% 10%;
+  padding:7% 12%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .icon {
@@ -124,4 +127,64 @@ p {
 .press-logo {
   width:10%;
   margin:20px 30px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px 150px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 2% 2%;
+}
+
+@media screen and (max-width:1440px) {
+
+  #title {
+  text-align: center;
+
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width:40%
+
+  }
+
+}
+
+/* call to Action */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding:5% 30%;
+
+}
+
+.cta-text {
+  font-size: 2rem;
+  padding: 15px;
+}
+
+.ctn-button {
+  margin: 15px;
+}
+
+/* footer */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 20%;
+}
+
+p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3rem;
+}
+
+.footer-icon {
+  padding: 15px;
 }

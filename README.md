@@ -1,1 +1,1 @@
-Use bootstrap to create a website
+Use bootstrap library to create a website
